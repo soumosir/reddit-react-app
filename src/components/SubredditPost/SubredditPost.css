@@ -1,0 +1,66 @@
+
+.paper{
+    
+    display: flex;
+  }
+
+.votes{
+    width: 10%;
+    padding: 0.5rem;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    color: honeydew;
+    min-width: 100px;
+}
+.post{
+    padding: 1rem;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: space-between;
+}
+.icontext{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 0.5rem;
+}
+.linkdiv{
+    align-items: center;
+    width: 20%;
+    padding: 4rem 1rem;
+    background-color: honeydew;
+}
+.linktext{
+   overflow-wrap: break-word;
+}
+
+.subreddittext{
+    font-size: x-small;
+    color:grey;
+}
+
+ 
+@media (max-width: 540px){
+    .paper{
+    
+        flex-direction: column;
+      }
+    .votes{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+    .post{
+        
+        width: 100%;
+    }
+    .linkdiv{
+        text-align: left;
+        width: 100%;
+        padding: 1rem;
+    }
+ }
